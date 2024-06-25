@@ -1,0 +1,35 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #505962;
+    font-size: large;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body div {
+    margin-top: 20px;
+    text-align: center;
+}
+.comment {
+    margin-top: 40px;
+    padding: 20px;
+    width: 40vw;
+    border: 2px solid #505962;
+    border-radius: 20px;
+}
+input[type="submit"] {
+    border: 1px solid #505962;
+    padding: 3px 8px;
+    background: transparent;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: rgba(255, 118, 118, 0.897);
+}
+@media (max-width: 1000px) {
+    .comment {
+        width: 80vw;
+    }
+}
